@@ -19,7 +19,7 @@ Console.Write("[");
     result = A[i];
     Console.Write(result + ", ");
     }
-Console.Write(A.Length-1);
+Console.Write(A[A.Length-1]);
 Console.Write("]");
 return result;
     
